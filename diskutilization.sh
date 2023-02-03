@@ -8,3 +8,7 @@ then
 else
         echo "enough disk is available"
 fi
+
+## If you want to store output in file
+
+df -h|grep "/dev/xvda1"|awk '{print $5}' >> file1.txt
