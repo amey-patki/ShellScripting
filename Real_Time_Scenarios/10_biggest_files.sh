@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Define the directory where you want to start searching
-search_directory="/"
+search_directory="$HOME"
+
 
 # Define the output file name
 output_file="largest_files.txt"
