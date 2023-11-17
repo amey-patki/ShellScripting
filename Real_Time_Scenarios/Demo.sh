@@ -1,3 +1,5 @@
+#!/bin/bash
+
 header="Date Time | CPU Usage (%) | Memory Usage (%) | Disk Usage (%)"
 
 #echo "$header"
