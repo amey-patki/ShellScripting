@@ -1,0 +1,2 @@
+Date Time | CPU Usage (%) | Memory Usage (%) | Disk Usage (%)
+2023-11-09 13:14:48 | 3.3 | 17.1022 | 42
