@@ -25,3 +25,9 @@ A zombie process is created when the parent process hasn't yet collected the exi
 Zombie processes are usually harmless on their own and don't consume system resources. However, if a large number of zombie processes accumulate, they can fill up the process table, potentially preventing the creation of new processes. It's generally a good practice to clean up zombie processes to ensure efficient system resource management.
 
 To remove a zombie process, the parent process needs to collect the exit status and resource information of its child process using the `wait` system call or by allowing the child to terminate properly. If the parent process cannot be fixed or no longer exists, you may need to use tools like the `kill` command with the `SIGCHLD` signal to forcefully clean up the zombie processes, as mentioned in the previous response.
+
+
+
+
+# Added New Folder For Basic Operations :
+- Basic Operations like Grep,awk
