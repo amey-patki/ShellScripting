@@ -6,4 +6,5 @@ read pattern
 echo "Enter the directory name to search in :"
 read directory
 
-grep -r "$pattern" "$directory"
+#search recuesively
+grep -r "$pattern" "$directory"          
