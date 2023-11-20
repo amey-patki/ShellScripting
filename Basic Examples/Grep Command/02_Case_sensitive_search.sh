@@ -6,4 +6,5 @@ read pattern
  echo "Enter the name of file to search"
  read filename
 
- grep -i "$pattern" "$filename"
+#search case sensitively
+grep -i "$pattern" "$filename"
