@@ -6,13 +6,13 @@ source_branch="main"
 
 # Destination repository details (where you want to push the backup)
 destination_repo="https://github.com/amey-patki/Backup_Repo.git"
-backup_branch="backup-$(date +"%Y%m%d_%H%M%S")"
+backup_branch="backupb-$(date +"%Y%m%d_%H%M%S")"
 
 # Directory where the backup will be stored
-backup_directory="/path/to/backup/directory"
+backup_directory="https://github.com/amey-patki/Backup_Repo.git"
 
 # Log file for script output
-log_file="/path/to/log/backup_log.txt"
+log_file="https://github.com/amey-patki/Backup_Repo.git"
 
 # Move to the directory where the script is located
 cd "$(dirname "$0")"
