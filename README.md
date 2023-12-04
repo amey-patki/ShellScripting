@@ -32,3 +32,4 @@ To remove a zombie process, the parent process needs to collect the exit status 
 # Added New Folder For Basic Operations :
 - Basic Operations like Grep,awk
 - Scripts
+- QA
