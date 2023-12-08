@@ -1,0 +1,17 @@
+System Information Report
+--------------------------
+Date: Thu Dec  7 05:30:55 UTC 2023
+
+Uptime:  05:30:55 up 10 min,  0 users,  load average: 0.83, 0.97, 0.63
+Load Average: 0.83 0.97 0.63 1/377 3566
+Memory Usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.4Gi       220Mi       1.0Mi       6.1Gi       6.0Gi
+Swap:            0B          0B          0B
+Disk Usage: Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G   13G   18G  43% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root        29G   22G  7.4G  75% /usr/sbin/docker-init
+/dev/sda1        44G  148K   42G   1% /tmp
+/dev/loop3       32G   13G   18G  43% /workspaces
+
